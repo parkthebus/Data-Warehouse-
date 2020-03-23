@@ -33,7 +33,7 @@ Following are the fact and dimension tables made for this project:
 ## To run the project:
    * Run command to install requirements.
         > pip install -r requirements.txt
-   * Setting your AWS environment.
+   * Set your AWS environment.
    * Update the `dwh.cfg` file with you Amazon Redshift cluster credentials and IAM role that can access the cluster.
    * Run `python create_tables.py`. This will create the database and all the required tables.
    * Run `python etl.py`. This will start pipeline which will read the data from files and populate the tables.
